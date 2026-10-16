@@ -1,0 +1,172 @@
+/* Each bitmap keeps its own aspect ratio. Only its position and uniform size vary. */
+.stage-scenery{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;container-type:size;perspective:1400px;background:#91aab1}
+.scenery-layer{position:absolute;transform:none;transform-origin:center}
+.scenery-layer img{max-width:none;display:block;user-select:none}
+.scenery-sky{inset:-28px;z-index:0;overflow:hidden}
+.sky-track{display:flex;width:max-content;height:100%;animation:sky-drift 600s linear infinite;will-change:transform}
+.sky-track img{width:auto;height:100%;flex:none}
+.sky-track img:nth-child(even){transform:scaleX(-1)}
+@keyframes sky-drift{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.motion-paused .sky-track{animation-play-state:paused}
+.scenery-horizon{left:-5%;bottom:24%;width:110%;z-index:1}
+.scenery-horizon img{width:100%;height:auto}
+.scenery-trees{bottom:24%;height:41%;z-index:2}
+.scenery-trees img{width:auto;height:100%}
+.scenery-trees-left{left:13%}
+.scenery-trees-right{right:11%}
+.scenery-temple{bottom:22%;height:60%;width:33cqh;z-index:3}
+.scenery-temple-left{left:9%;width:31cqh}
+.scenery-temple-right{right:7%;height:62%}
+.temple-column{position:absolute;bottom:0;width:auto;height:82%}
+.left-column{left:25%}
+.right-inner{left:10%;height:76%}
+.right-outer{right:0;height:79%}
+.temple-roof{position:absolute;top:0;width:100%;height:auto}
+.left-lintel{left:-3%}
+.right-pediment{left:-5%}
+.scenery-floor{bottom:-14px;left:-30px;right:-30px;height:29%;z-index:4;overflow:hidden;background:#dcc5a1}
+.scenery-floor img{position:absolute;bottom:0;left:0;width:100%;height:auto}
+.scenery-rocks{bottom:25%;width:40cqh;z-index:5}
+.scenery-rocks img{width:100%;height:auto}
+.scenery-rocks-left{left:8%}
+.scenery-rocks-right{right:5%}
+.scenery-stump{bottom:25%;height:16%;z-index:6}
+.scenery-stump img{height:100%;width:auto}
+.scenery-stump-left{left:29%}
+.scenery-stump-right{right:22%}
+.scenery-olive{bottom:24%;height:27%;z-index:7}
+.scenery-olive img{width:auto;height:100%}
+.scenery-olive-left{left:6%}
+.scenery-olive-right{right:6%}
+.scenery-curtain{top:-8px;height:calc(100% + 20px);z-index:8}
+.scenery-curtain img{height:100%;width:auto}
+.scenery-curtain-left{left:-2cqh}
+.scenery-curtain-right{right:-2cqh}
+.scenery-valance{top:0;left:0;right:0;z-index:9}
+.valance-pieces{display:flex;width:max(100%,1000px);position:relative;left:50%;transform:translate(-50%,-43%)}
+.valance-pieces img{width:33.333333%;height:auto;flex:none}
+.home .stage-invitation,.home .stage-caption{white-space:nowrap}
+.home .theatre:before,.home .theatre:after{content:none}
+.home .stage-cloud{transform:rotate(-5deg)}
+.home .stage-column{transform:rotate(5deg)}
+.home .stage-flute{transform:rotate(-6deg)}
+.home .stage-amphora{transform:rotate(6deg)}
+.home .stage-horse{transform:rotate(-5deg)}
+.home .stage-jug{transform:rotate(-7deg)}
+.home .portrait-layers{transform:none}
+@media(min-width:1800px){
+ .scenery-temple-left{left:12%}
+ .scenery-temple-right{right:12%}
+ .scenery-trees-left{left:17%}
+ .scenery-trees-right{right:17%}
+ .scenery-rocks-left{left:12%}
+ .scenery-rocks-right{right:11%}
+ .scenery-olive-left{left:10%}
+ .scenery-olive-right{right:10%}
+}
+@media(max-width:1000px){
+ .scenery-temple-left{left:5%}
+ .scenery-temple-right{right:5%}
+ .scenery-olive-left{left:3%}
+ .scenery-olive-right{right:3%}
+}
+@media(max-width:650px){
+ .scenery-curtain-left{left:-16cqh}
+ .scenery-curtain-right{right:-15cqh}
+ .valance-pieces{width:1000px;transform:translate(-50%,-52%)}
+ .scenery-temple-left{left:-18%;height:44%;width:25cqh;bottom:22%}
+ .scenery-temple-right{right:-19%;height:43%;width:24cqh;bottom:22%}
+ .scenery-trees{height:25%;bottom:26%}
+ .scenery-trees-left{left:-20%}
+ .scenery-trees-right{right:-11%}
+ .scenery-horizon{width:170%;left:-35%;bottom:26%}
+ .scenery-rocks{width:27cqh;bottom:26%}
+ .scenery-rocks-left{left:-15%}
+ .scenery-rocks-right{right:-22%}
+ .scenery-stump{height:11%;bottom:26%}
+ .scenery-stump-left{left:8%}
+ .scenery-stump-right{right:5%}
+ .scenery-olive{height:20%;bottom:24%}
+ .scenery-olive-left{left:-7%}
+ .scenery-olive-right{right:-8%}
+ .scenery-floor{height:29%}
+ .scenery-floor img{width:auto;min-width:100%;height:100%;left:50%;transform:translateX(-50%)}
+}
+@media(prefers-reduced-motion:reduce){
+ .sky-track{animation:none;transform:none;will-change:auto}
+ .scenery-layer{transform:none;will-change:auto}
+}
+
+/* A suspended actor and the apple give the existing paper stage a small story.
+   Photograph and alpha stay original; brightness is a reversible display filter. */
+.home .stage-limelight{position:absolute;z-index:1;pointer-events:none;left:54%;top:11%;width:38%;height:80%;background:radial-gradient(ellipse at 52% 53%,#fff0cb5c 0%,#ffe5b22b 38%,#ffe5b200 70%)}
+.home .portrait-original{filter:brightness(1.24) contrast(.97) sepia(.06)}
+.home .stage-cloud{opacity:.38}
+.home .stage-eros{position:absolute;z-index:3;left:47%;top:23%;width:clamp(150px,16vw,230px);pointer-events:none;transform:rotate(-6deg)}
+.stage-eros img{position:relative;width:100%;height:auto;filter:drop-shadow(1px 3px 1px #48351d26)}
+.puppet-thread{position:absolute;bottom:84%;height:340px;width:1px;background:#46382180;transform-origin:bottom;pointer-events:none}
+.puppet-thread-left{left:29%;transform:rotate(3deg)}
+.puppet-thread-right{left:69%;bottom:75%;transform:rotate(-3deg)}
+.home .stage-apple{position:absolute;z-index:3;left:59.5%;bottom:89px;width:clamp(100px,12vw,165px);pointer-events:none;transform:none}
+.stage-apple img{position:relative;width:100%;height:auto;filter:drop-shadow(2px 3px 1px #4b3b2924)}
+.stage-apple:after{content:'';position:absolute;z-index:-1;left:6%;right:-14%;bottom:-3%;height:8%;border-radius:50%;background:radial-gradient(ellipse,#5b432b3b,transparent 70%)}
+.home .stage-amphora{left:24%;bottom:41px;width:7.3%;max-width:110px;z-index:3}
+.home .stage-horse{left:30%;bottom:38px;width:5.7%;max-width:82px;z-index:3}
+.home .stage-jug{left:32%;right:auto;bottom:35px;width:4.6%;max-width:67px;z-index:3}
+@media(min-width:1800px){
+ .home .stage-eros{left:46%;top:25%;width:225px}
+ .home .stage-apple{left:57.5%;bottom:85px;width:155px}
+ .home .stage-amphora{left:27%}
+ .home .stage-horse{left:31.5%}
+ .home .stage-jug{left:34%}
+}
+@media(min-width:651px) and (max-width:1000px){
+ .home .stage-eros{left:45%;top:20%;width:145px}
+ .home .stage-apple{left:57%;bottom:85px;width:100px}
+ .home .stage-amphora{left:23%;width:8%}
+ .home .stage-jug{left:30%;width:5.4%}
+}
+@media(max-width:650px){
+ .home .stage-limelight{left:4%;top:33%;width:92%;height:62%}
+ .home .stage-eros{left:13%;right:auto;top:47%;width:clamp(82px,24.5vw,105px);transform:rotate(-6deg)}
+ .puppet-thread{height:66px;opacity:.65}
+ .home .stage-apple{left:6%;bottom:64px;width:clamp(60px,18vw,85px);transform:none}
+ .home .stage-amphora{left:auto;right:4%;bottom:32px;width:13%;max-width:65px}
+ .home .stage-jug{left:auto;right:14%;bottom:29px;width:10%;max-width:49px}
+ .home .stage-horse{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+ .home .stage-eros{transform:rotate(-6deg)}
+ .home .stage-apple{transform:none}
+}
+
+/* The portrait and apple share one coordinate system: the fruit sits under
+   the original palm (36% x, 63% y), and both cutouts end at the stage floor. */
+.home .stage-content{padding-bottom:24px}
+.home .stage-portrait{align-self:end}
+.home .portrait-layers{isolation:isolate;width:fit-content;max-width:100%;margin:0 auto}
+.home .portrait-original{position:relative;z-index:1}
+.home .stage-caption{position:absolute;left:50%;bottom:28px;margin:0;transform:translateX(-50%) rotate(-3deg);z-index:2}
+.home .portrait-layers .stage-apple{left:18.5%;top:59.5%;bottom:auto;width:33%;max-width:none;transform:none;z-index:0}
+.home .stage-column{bottom:14px}
+@media(max-width:650px){
+ .home .stage-content{padding-bottom:18px}
+ .home .stage-column{bottom:10px}
+ .home .stage-caption{bottom:12px;font-size:26px;padding:8px 16px}
+ .home .stage-caption span{font-size:19px}
+}
+
+/* Gold paper branches move independently of the fixed fabric. */
+.valance-piece{position:relative;display:block;width:33.333333%;flex:none}
+.valance-pieces .valance-piece img{width:100%;height:auto}
+.laurel-sway{position:absolute;display:block;top:0;left:-2%;width:86%;transform-origin:41% 1%;animation:laurel-breeze 8.5s cubic-bezier(.45,0,.55,1) infinite alternate}
+.laurel-right{left:16%;transform-origin:59% 1%;animation-duration:10s;animation-delay:-4s}
+.laurel-right img{transform:scaleX(-1)}
+@keyframes laurel-breeze{from{transform:rotate(-1.6deg)}to{transform:rotate(2.2deg)}}
+.motion-paused .laurel-sway{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.laurel-sway{animation:none;transform:none}}
+
+@media(max-width:650px){
+ .laurel-left{left:40%;width:78%}
+ .laurel-right{left:-18%;width:78%}
+}
