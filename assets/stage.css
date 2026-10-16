@@ -170,3 +170,28 @@
  .laurel-left{left:40%;width:78%}
  .laurel-right{left:-18%;width:78%}
 }
+
+/* The actor has a stationary hit area; only his inner paper rig moves. */
+.home button.stage-eros{display:block;padding:0;margin:0;border:0;border-radius:0;background:transparent;box-shadow:none;line-height:0;appearance:none;pointer-events:auto;cursor:pointer;touch-action:manipulation}
+.home .stage-content,.home .stage-title{pointer-events:none}
+.home .stage-invitation{pointer-events:auto}
+.eros-rig{position:relative;display:block;width:100%;transform-origin:50% -30px}
+.home .stage-eros:focus-visible{outline:2px dashed #244d98;outline-offset:8px}
+@media(prefers-reduced-motion:no-preference){
+ .stage-eros.is-animated .eros-rig{animation:eros-sway 3.2s ease-in-out infinite}
+ .stage-eros.is-animated img{transform-origin:82% 57%;animation:eros-aim 3.2s ease-in-out infinite}
+}
+@keyframes eros-sway{
+ 0%,100%{transform:translate(0,0) rotate(0deg)}
+ 20%{transform:translate(2px,-2px) rotate(4deg)}
+ 45%{transform:translate(-2px,1px) rotate(-3.5deg)}
+ 70%{transform:translate(1px,-1px) rotate(2deg)}
+ 87%{transform:translate(-1px,0) rotate(-1deg)}
+}
+@keyframes eros-aim{
+ 0%,100%{transform:translateX(0) rotate(0deg)}
+ 30%,45%{transform:translateX(3px) rotate(-1.5deg)}
+ 70%{transform:translateX(-1px) rotate(.5deg)}
+}
+.motion-paused .stage-eros .eros-rig,.motion-paused .stage-eros img{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.stage-eros .eros-rig,.stage-eros img{animation:none!important;transform:none!important}}
