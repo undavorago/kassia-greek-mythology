@@ -2,7 +2,7 @@ const root = document.documentElement;
 root.dataset.motion = 'off';
 function header(active='') {
  const base=location.pathname.includes('/lectures/')?'../':'';
- return `<a class="skip" href="#content">к содержанию</a><header class="site-header">${document.body.classList.contains("home") ? "" : `<a class="brand" href="${base}index.html" aria-label="На главную">ΜΥΘΟΣ <span>кабинет Кассии</span></a>`}<button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">меню</button><nav id="site-nav" aria-label="Главная навигация"><a class="${active==='catalog'?'is-active':''}" href="https://kassia-greek-mythology.withmeoutiy.chatgpt.site/catalog.html">занятия</a><a class="${active==='rules'?'is-active':''}" href="https://kassia-greek-mythology.withmeoutiy.chatgpt.site/rules.html">правила</a></nav></header>`;
+ return `<a class="skip" href="#content">к содержанию</a><header class="site-header">${document.body.classList.contains("home") ? "" : `<a class="brand" href="${base}index.html" aria-label="На главную">ΜΥΘΟΣ <span>кабинет Кассии</span></a>`}<button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">меню</button><nav id="site-nav" aria-label="Главная навигация"><span>занятия</span><span>правила</span></nav></header>`;
 }
 function footer(){return `<footer class="site-footer"><span>Кабинет мифологии Древней Греции<br>Хогвартс Дамблдора</span><span>Кассия Дэверо<br><a href="${location.pathname.includes('/lectures/')?'../':''}about.html#materials">Материалы и оформление</a></span></footer>`}
 document.querySelectorAll('[data-header]').forEach(el=>el.innerHTML=header(el.dataset.header));
