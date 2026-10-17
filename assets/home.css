@@ -32,11 +32,11 @@
 .home .ornament-cell{height:100%;flex:1;min-width:0}
 .home .welcome-letter{display:block;width:100%;max-width:none;padding:88px 48px 96px;margin:0;background:#eee6d4;scroll-margin-top:24px}
 .home #welcome:before{opacity:.019;background-size:240px 74px}
-.home .letter-body{width:100%;max-width:740px;margin:0 auto;font:18px/1.85 var(--reading)}
+.home .letter-body{width:100%;max-width:920px;margin:0 auto;font:18px/1.85 var(--reading)}
 .home .letter-body .olympus-note{font:29px/1.45 var(--hand);color:#3e5570;margin:0 0 48px}
 .home .letter-body h2{font:clamp(40px,4.5vw,62px)/1.18 var(--serif);margin:0 0 44px;letter-spacing:-.015em}
 .home .letter-body h2 span{color:#98351f}
-.home .letter-body>p{margin-bottom:28px}
+.home .letter-body>p{margin-bottom:28px;text-align:justify;text-align-last:left;hyphens:auto;overflow-wrap:break-word}
 .home .course-signs{margin:44px 0;padding:46px 32px;background:#f9efda;border-left:1px solid #a05236;border-right:1px solid #a05236;box-shadow:none}
 .home .course-signs:before{inset:30px 10px;border:1px solid #9d382920}
 .home .sign-ornament{height:22px}
@@ -47,7 +47,7 @@
 .home .course-signs .course-sentence a:nth-of-type(2):hover{color:#244d98}
 .home .letter-body .apple-postscript{border:0;padding:0;margin:36px 0 0;color:#3b352b}
 @media(min-width:1600px){
- .home .letter-body{max-width:900px;font-size:19px}
+ .home .letter-body{max-width:1060px;font-size:19px}
  .home .stage-content{min-height:min(760px,calc(100svh - 64px))}
  .home .stage-column{right:7%}
  .home .stage-flute{left:8%}
