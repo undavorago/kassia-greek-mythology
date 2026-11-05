@@ -1,0 +1,116 @@
+[
+  {
+    "name": "curtain-left",
+    "file": "curtain-left.webp",
+    "width": 343,
+    "height": 1300
+  },
+  {
+    "name": "curtain-right",
+    "file": "curtain-right.webp",
+    "width": 306,
+    "height": 1300
+  },
+  {
+    "name": "curtain-top",
+    "file": "curtain-top.webp",
+    "width": 1800,
+    "height": 295
+  },
+  {
+    "name": "sky",
+    "file": "sky.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "name": "column-left",
+    "file": "column-left.webp",
+    "width": 292,
+    "height": 1100
+  },
+  {
+    "name": "lintel-left",
+    "file": "lintel-left.webp",
+    "width": 1000,
+    "height": 509
+  },
+  {
+    "name": "pediment-right",
+    "file": "pediment-right.webp",
+    "width": 1000,
+    "height": 626
+  },
+  {
+    "name": "column-right-inner",
+    "file": "column-right-inner.webp",
+    "width": 287,
+    "height": 1100
+  },
+  {
+    "name": "column-right-outer",
+    "file": "column-right-outer.webp",
+    "width": 293,
+    "height": 1100
+  },
+  {
+    "name": "floor",
+    "file": "floor.webp",
+    "width": 1800,
+    "height": 351
+  },
+  {
+    "name": "trees-left",
+    "file": "trees-left.webp",
+    "width": 909,
+    "height": 950
+  },
+  {
+    "name": "trees-right",
+    "file": "trees-right.webp",
+    "width": 463,
+    "height": 950
+  },
+  {
+    "name": "olive-left",
+    "file": "olive-left.webp",
+    "width": 385,
+    "height": 700
+  },
+  {
+    "name": "olive-right",
+    "file": "olive-right.webp",
+    "width": 428,
+    "height": 700
+  },
+  {
+    "name": "rocks-left",
+    "file": "rocks-left.webp",
+    "width": 1100,
+    "height": 549
+  },
+  {
+    "name": "rocks-right",
+    "file": "rocks-right.webp",
+    "width": 1100,
+    "height": 401
+  },
+  {
+    "name": "stump-left",
+    "file": "stump-left.webp",
+    "width": 469,
+    "height": 650
+  },
+  {
+    "name": "stump-right",
+    "file": "stump-right.webp",
+    "width": 500,
+    "height": 650
+  },
+  {
+    "name": "horizon",
+    "file": "horizon.webp",
+    "width": 1800,
+    "height": 337
+  }
+]

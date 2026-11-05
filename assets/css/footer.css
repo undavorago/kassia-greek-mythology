@@ -1,0 +1,32 @@
+/* Same quiet theatrical ink and warm paper as the cabinet. */
+.cabinet-footer{background:#25291f;color:#f2efdf;padding:30px clamp(20px,5vw,76px) 18px;margin:0;width:100%;font:16px/1.4 Caveat,'Segoe Print',cursive;border-top:5px solid #ad482f}
+.cabinet-footer a{color:inherit;text-decoration:none}
+.cabinet-footer-main{display:grid;grid-template-columns:1fr 1fr 150px 1fr 1fr;align-items:center;gap:clamp(12px,3vw,48px);max-width:1050px;margin:auto;text-align:center}
+.cabinet-footer-link{display:flex;flex-direction:column;align-items:center;gap:9px;padding:12px 0;transition:color .2s}
+.cabinet-footer-link>svg{width:40px;height:40px;transition:transform .35s cubic-bezier(.2,.7,.3,1);color:#cdb78a}
+.cabinet-footer-link:hover,.cabinet-footer-link:focus-visible{color:#e3bf7c}
+.cabinet-footer-link:hover>svg,.cabinet-footer-link:focus-visible>svg{transform:translateY(-5px) rotate(-7deg)}
+.cabinet-seal{display:block;width:150px;height:150px;color:#d5be8e!important}
+.cabinet-seal svg{display:block;width:100%;height:100%;overflow:visible}
+
+
+.cabinet-seal-mark{transform-origin:100px 100px;transition:transform .5s}
+.cabinet-seal:hover .cabinet-seal-mark,.cabinet-seal:focus-visible .cabinet-seal-mark{transform:rotate(90deg) scale(1.12)}
+.cabinet-footer-bottom{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px 32px;margin:22px auto 0;padding-top:16px;border-top:1px solid #f2efdf25;max-width:1050px;font-size:16px}
+.cabinet-footer-bottom a:hover{text-decoration:underline;text-underline-offset:4px}
+.cabinet-footer-bottom button{background:none;border:0;padding:0;color:#c5c4b5;font:inherit;cursor:default}
+.cabinet-footer-bottom small{font:11px Arial,sans-serif;margin-left:5px}
+.cabinet-footer a:focus-visible{outline:2px solid #e3bf7c;outline-offset:5px}
+@keyframes cabinet-seal-turn{to{transform:rotate(360deg)}}
+@media(max-width:640px){.cabinet-footer-main{grid-template-columns:1fr 1fr;gap:8px 24px}.cabinet-seal{grid-column:1/-1;grid-row:1;justify-self:center;width:132px;height:132px}.cabinet-footer-link{font-size:18px}.cabinet-footer-bottom{gap:12px 20px}.cabinet-footer-bottom button{flex-basis:100%;order:1}}
+@media(prefers-reduced-motion:reduce){.cabinet-footer *{transition:none!important}}
+
+/* Original DHI icon font and chair SVG, retained without redrawing. */
+@font-face{font-family:CabinetDHI;src:url('../fonts/dhi.woff') format('woff');font-weight:400;font-style:normal;font-display:block}
+.cabinet-original-icon{font:40px/1 CabinetDHI!important;font-style:normal;display:block;color:#cdb78a;transition:transform .35s cubic-bezier(.2,.7,.3,1);-webkit-font-smoothing:antialiased}
+.cabinet-footer-link:hover .cabinet-original-icon,.cabinet-footer-link:focus-visible .cabinet-original-icon{transform:translateY(-5px) rotate(-7deg)}
+.cabinet-seal .chair-icon{transform:translate(35%,35%) scale(.6);fill:currentColor}
+.cabinet-seal .textcircle{transition:transform 1s cubic-bezier(.65,0,.35,1);transform-origin:250px 250px}
+.cabinet-seal:hover .textcircle,.cabinet-seal:focus-visible .textcircle{transform:scale(1.2) rotate(90deg)}
+.cabinet-seal text{fill:currentColor;font:500 25px Arial,sans-serif;text-transform:uppercase;font-variant-ligatures:none;letter-spacing:6px;animation:cabinet-seal-turn 25s linear infinite;transform-origin:250px 250px}
+@media(prefers-reduced-motion:reduce){.cabinet-seal text{animation:none}}

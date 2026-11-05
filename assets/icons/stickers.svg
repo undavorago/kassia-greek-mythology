@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" fill="none" stroke="#275CA7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+ <g id="amphora"><path d="M92 30h56M104 30v24c0 12-21 17-21 49v82c0 30 18 42 49 42s49-12 49-42v-82c0-32-21-37-21-49V30"/><path d="M83 94H53v35c0 15 16 20 31 17M181 94h30v35c0 15-16 20-31 17M89 163c30-15 55-15 85 0M100 196c21-8 42-8 63 0"/></g>
+ <g id="owl" transform="translate(235 15)"><path d="M23 55 45 30l16 27 19-27 17 27 23-27-3 43c8 18 6 92-50 92S8 91 16 73l-3-43z"/><path d="M34 87c0-28 42-28 42 0 0-28 42-28 42 0M47 120h42M67 112l10 15-10 9-10-9zM28 151h75"/><circle cx="54" cy="87" r="4" fill="#275CA7"/><circle cx="96" cy="87" r="4" fill="#275CA7"/></g>
+ <g id="laurel" transform="translate(435 10)"><path d="M90 224C21 177 18 91 91 19M88 224c70-47 73-133 0-205M67 70 33 52M61 104 22 94M59 141 17 143M69 178 31 195M111 70l34-18M118 104l39-10M120 141l42 2M111 178l38 17"/></g>
+ <g id="shell" transform="translate(610 52)"><path d="M18 131C12 53 62 11 92 11c29 0 79 42 73 120H18zM36 128 31 63M61 128 57 28M92 128V15M122 128l5-99M147 128l5-65"/></g>
+</svg>

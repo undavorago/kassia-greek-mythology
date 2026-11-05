@@ -1,0 +1,118 @@
+/* Lecture pages share the catalog's exact outer boundaries. */
+.lesson-page{background:#eee6d4;color:#30342b;--lecture-blue:#244d98;--lecture-red:#983b2a;--lecture-line:#ab956866}
+.lecture-header,.lecture-shell{width:100%;max-width:1840px;margin-inline:auto;padding-inline:clamp(24px,3vw,56px)}
+.lecture-header{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:15px;font:25px/1.2 var(--hand)}
+.lecture-header nav{display:flex;gap:30px}.lesson-page a{color:var(--lecture-blue)}.lesson-page a:hover{color:var(--lecture-red)}
+.lesson-page a:focus-visible,.lesson-page button:focus-visible{outline:3px solid var(--lecture-red);outline-offset:5px}
+.lecture-opening{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:clamp(32px,5vw,90px);padding-block:42px 56px;border-bottom:1px solid var(--lecture-line)}
+.lesson-kicker{display:flex;flex-wrap:wrap;gap:10px 28px;margin:0 0 28px;font:26px/1.2 var(--hand);color:var(--lecture-red)}
+.lesson-kicker span{padding-left:24px;border-left:1px solid var(--lecture-line)}
+.lecture-opening h1{font:clamp(65px,7.4vw,122px)/1.08 var(--serif);color:var(--lecture-blue);margin:0 0 26px;letter-spacing:-.015em}
+.lesson-deck{font:28px/1.4 var(--hand);margin:0 0 29px}.lesson-deck span{color:#796b53}
+.homework-shortcut{display:inline-flex;gap:25px;align-items:center;border-bottom:1px solid currentColor;font:25px/1.3 var(--hand);padding-bottom:5px}
+.opening-collage{position:relative;isolation:isolate;min-width:0;padding:25px 12px 38px 0}
+.opening-painting{position:relative;margin:0;padding:10px;background:#f9f1dd;border:1px solid #bba77d;transform:rotate(-2deg);box-shadow:3px 5px 0 #c7b79460}
+.opening-painting>img{width:100%;height:auto}.opening-painting figcaption{position:absolute;right:12px;bottom:-24px;max-width:95%;font:27px/1.2 var(--hand);color:var(--lecture-blue);background:#faf2df;padding:8px 15px;transform:rotate(3deg)}
+.opening-papyrus{position:absolute;right:-5px;top:-12px;width:66%;height:95%;object-fit:cover;transform:rotate(8deg);z-index:-1;opacity:.72}
+.opening-number{position:absolute;left:-32px;bottom:-14px;z-index:2;font:italic 88px/1 Georgia,serif;color:#983b2a}
+.lecture-navigation{position:sticky;top:0;z-index:8;display:flex;flex-wrap:wrap;gap:10px 34px;padding:15px 0;background:#eee6d4f5;border-bottom:1px solid var(--lecture-line);font:25px/1.2 var(--hand);backdrop-filter:blur(6px)}
+.lecture-navigation a{padding:3px 0}.lecture-navigation a:last-child{margin-left:auto}
+.lecture-reading{padding-block:45px 22px;font:19px/1.95 var(--reading);max-width:none;width:100%}
+.lecture-reading p,.task-prose p,.homework-group>p,.topic-list p{text-align:justify;text-align-last:left;hyphens:auto;overflow-wrap:break-word}
+.lecture-reading p{margin:0 0 1.25em}.lecture-reading .spoken{color:#39372c}
+.reading-heading{font:clamp(34px,3vw,48px)/1.2 var(--serif);color:var(--lecture-blue);margin:58px 0 26px;scroll-margin-top:95px}
+.myth-definition{border-left:4px solid var(--lecture-red);background:#e6dbc2;padding:24px 34px;margin:30px 0 36px;box-shadow:3px 4px 0 #c2ad7d3d}
+.myth-definition p{margin:0;font-weight:600}.lesson-page [id]{scroll-margin-top:90px}
+.homework-section{margin-top:32px;border-top:2px solid var(--lecture-red);padding-top:40px}
+.homework-intro{display:grid;grid-template-columns:1fr 1fr;gap:8px 60px;align-items:end;padding-bottom:34px;border-bottom:1px solid var(--lecture-line)}
+.margin-note{grid-column:1/-1;color:var(--lecture-red);font:28px/1.3 var(--hand)}
+.homework-intro h2{font:clamp(52px,5.7vw,88px)/1.1 var(--serif);color:var(--lecture-blue);margin:12px 0 0}
+.homework-navigation{display:flex;flex-wrap:wrap;gap:12px 25px;align-content:end;padding-bottom:8px;font:26px/1.25 var(--hand)}
+.homework-navigation a{border-bottom:1px solid #244d9850}.main-homework-title{font:31px/1.3 var(--hand);color:var(--lecture-red);margin:32px 0 9px}
+.task-list{list-style:none;margin:0;padding:0}.task{display:grid;grid-template-columns:66px minmax(0,1fr);gap:25px;padding:35px 0 40px;border-bottom:1px solid var(--lecture-line)}
+.task-number{font:56px/1.1 Georgia,serif;color:#244d9880;font-variant-numeric:tabular-nums;letter-spacing:-.07em}
+.task-heading{display:flex;justify-content:space-between;align-items:baseline;gap:16px 30px;margin:0 0 19px}
+.task-heading h3{font:36px/1.2 var(--hand);color:var(--lecture-blue);margin:0}.task-points{font:25px/1.2 var(--hand);color:var(--lecture-red);white-space:nowrap}
+.task-prose{font:18px/1.85 var(--reading)}.task-prose p{margin:0 0 1.1em}.task-prose p:last-child{margin-bottom:0}
+.painting-task{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:34px;align-items:start}
+.venus-assignment{margin:4px 0 0}.painting-open{display:block;position:relative;padding:8px;border:1px solid #b29a6a;background:#faf3df}
+.painting-open>img{width:100%;height:auto}.painting-open>span{display:block;padding:9px 4px 2px;font:24px/1.2 var(--hand)}
+.venus-assignment figcaption{font:20px/1.45 var(--hand);padding-top:13px;color:#706048}.venus-assignment figcaption a{text-decoration:underline;text-underline-offset:4px}
+.additional-heading{display:flex;gap:22px 65px;align-items:baseline;margin:58px 0 32px}.additional-heading>span{font:28px/1.4 var(--hand);color:var(--lecture-red)}
+.additional-heading h2{font:clamp(38px,4.2vw,61px)/1.18 var(--serif);color:var(--lecture-blue);margin:0}
+.additional-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:60px;align-items:start}
+.homework-group{padding:26px 0 32px;border-top:1px solid var(--lecture-line);font:17px/1.85 var(--reading);min-width:0}
+.homework-group-heading{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 16px;margin-bottom:27px}
+.homework-group-heading h3{font:42px/1.1 var(--serif);color:var(--lecture-blue);margin:0}.homework-group-heading>span{font:24px/1.3 var(--hand);color:var(--lecture-red)}
+.topic-list{list-style:none;margin:0;padding:0}.topic-list>li{margin:0 0 30px}.topic-list>li:last-child{margin-bottom:0}
+.topic-heading{margin-bottom:12px}.topic-heading h4{font:29px/1.2 var(--hand);font-weight:600;color:#4a4937;margin:0}
+.topic-points{display:block;font:23px/1.3 var(--hand);color:var(--lecture-red);margin-top:5px}
+.topic-list p{margin:0 0 .8em}.creative{grid-column:1/-1}.creative .topic-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 60px}.creative .topic-list>li{margin:0}
+.creative-note{font:26px/1.5 var(--hand);background:#e5d9bf;padding:23px 28px;margin:30px 0 0;text-align:left!important}
+.lecture-contact{border-top:1px solid var(--lecture-line);margin-top:30px;padding-top:36px}.lecture-contact h2{font:39px/1.2 var(--serif);color:var(--lecture-blue);margin:0 0 14px}
+.lecture-contact>p{font:25px/1.5 var(--hand);margin:0}.lecture-contact .contact-links{margin-top:19px;border-top:0;padding-top:0}
+.lecture-bottom{display:flex;justify-content:space-between;gap:35px;align-items:center;padding:40px 0;margin-top:32px;border-top:1px solid var(--lecture-line);font:25px/1.4 var(--hand)}
+.next-pending{max-width:470px;color:#71674f}.next-pending span,.next-pending small{display:block;font:21px/1.4 var(--hand)}.next-pending strong{display:block;font:26px/1.4 var(--hand);font-weight:400}
+.art-dialog{width:min(1500px,94vw);max-width:94vw;max-height:94dvh;border:1px solid #a9956a;padding:16px;background:#eee6d4;color:#30342b;overflow:auto;overscroll-behavior:contain}
+.art-dialog::backdrop{background:#151710d9}.art-dialog header{display:flex;justify-content:space-between;align-items:center;gap:24px;padding-bottom:15px}.art-dialog h2{font:24px/1.3 var(--hand);margin:0}.art-dialog button{font:25px/1.2 var(--hand);border:0;background:none;color:#244d98;padding:9px;cursor:pointer}.art-dialog>img{width:100%;height:auto}
+@media(min-width:1650px){.lecture-reading{font-size:21px}.task-prose{font-size:19px}.homework-group{font-size:18px}}
+@media(max-width:1100px){.lecture-opening{gap:32px;padding-block:32px 44px}.lecture-opening h1{font-size:clamp(65px,8vw,88px)}.lesson-kicker{font-size:23px}.lesson-deck{font-size:25px}.opening-painting figcaption{font-size:23px}.opening-number{font-size:65px;left:-20px}.lecture-navigation{gap:9px 22px;font-size:23px}.lecture-reading{font-size:18px}.painting-task{grid-template-columns:1fr}.venus-assignment{max-width:850px}.additional-grid{column-gap:36px}.creative .topic-list{column-gap:36px}.homework-intro{gap:12px 35px}.task-heading h3{font-size:32px}}
+@media(max-width:700px){.lecture-header,.lecture-shell{padding-inline:20px}.lecture-header{min-height:61px;font-size:22px;gap:15px}.lecture-header nav{gap:16px}.lecture-opening{grid-template-columns:1fr;gap:26px;padding-block:24px 34px}.lesson-kicker{margin-bottom:22px;font-size:24px}.lecture-opening h1{font-size:clamp(57px,12vw,86px);margin-bottom:20px}.lesson-deck{font-size:25px;margin-bottom:23px}.opening-collage{max-width:500px;width:90%;justify-self:center;padding-top:6px;padding-bottom:23px}.opening-painting{padding:7px}.opening-painting figcaption{font-size:23px;bottom:-19px;right:6px;padding:5px 10px}.opening-number{font-size:58px;left:-20px;bottom:-10px}.opening-papyrus{top:-8px}.lecture-navigation{gap:5px 19px;font-size:22px;padding-block:10px}.lecture-navigation a:last-child{margin-left:0}.lecture-reading{font-size:17px;line-height:1.9;padding-top:31px}.reading-heading{font-size:33px;margin-top:40px}.myth-definition{padding:20px;margin:26px 0}.homework-section{padding-top:29px;margin-top:24px}.homework-intro{grid-template-columns:1fr;gap:21px;padding-bottom:27px}.homework-intro h2{font-size:57px;margin-top:0}.margin-note{font-size:26px}.homework-navigation{font-size:25px;gap:10px 23px;padding:0}.main-homework-title{font-size:28px;margin-top:27px}.task{grid-template-columns:35px minmax(0,1fr);gap:13px;padding:28px 0 31px}.task-number{font-size:35px;padding-top:3px}.task-heading{display:block;margin-bottom:16px}.task-heading h3{font-size:29px;margin-bottom:9px}.task-points{font-size:23px}.task-prose{font-size:16px;line-height:1.9}.painting-task{gap:23px}.painting-open{padding:5px}.painting-open>span{font-size:22px}.venus-assignment figcaption{font-size:20px}.additional-heading{display:block;margin:40px 0 24px}.additional-heading>span{display:block;font-size:26px;margin-bottom:12px}.additional-heading h2{font-size:39px}.additional-grid,.creative .topic-list{grid-template-columns:1fr;gap:0}.homework-group{font-size:16px;padding:26px 0 28px}.homework-group-heading{margin-bottom:22px}.homework-group-heading h3{font-size:35px}.topic-heading h4{font-size:28px}.topic-list>li{margin-bottom:25px}.creative .topic-list>li{margin-bottom:24px}.creative-note{font-size:25px;padding:19px}.lecture-contact{padding-top:28px}.lecture-contact h2{font-size:33px}.lecture-contact>p{font-size:24px}.lecture-bottom{flex-wrap:wrap;padding-block:27px;gap:22px;font-size:24px}.next-pending{order:3;width:100%;max-width:none;padding-top:18px;border-top:1px solid var(--lecture-line)}.art-dialog{padding:10px}.art-dialog h2{font-size:20px}.art-dialog button{font-size:23px;white-space:nowrap}}
+@media(max-width:360px){.lecture-header,.lecture-shell{padding-inline:16px}.lecture-header{font-size:20px}.lecture-header nav{gap:13px}.lecture-opening h1{font-size:56px}.task{grid-template-columns:29px minmax(0,1fr);gap:10px}.task-number{font-size:30px}}
+@media(prefers-reduced-motion:reduce){.lesson-page{scroll-behavior:auto}.lesson-page *{scroll-behavior:auto!important}}
+@media print{.lesson-page{background:#fff;color:#111}.lecture-header,.lecture-navigation,.homework-navigation,.homework-shortcut,.opening-collage,.lecture-contact,.lecture-bottom,.art-dialog{display:none!important}.lecture-shell{max-width:none;padding:0}.lecture-opening{display:block;padding:0 0 20px}.lecture-opening h1{font:32pt/1.1 Georgia;color:#111}.lesson-kicker,.lesson-deck{font:11pt/1.4 Georgia}.lecture-reading,.task-prose,.homework-group{font:11pt/1.55 Georgia}.lecture-reading p,.task-prose p,.homework-group p{hyphens:auto}.reading-heading{font:19pt Georgia;margin:25px 0 15px}.homework-intro{display:block}.homework-intro h2,.additional-heading h2{font:25pt Georgia;color:#111}.task{break-inside:auto;grid-template-columns:35px 1fr;gap:12px}.task-heading,.homework-group-heading{break-after:avoid}.task-heading h3,.topic-heading h4{font:15pt Georgia;color:#111}.painting-task,.additional-grid,.creative .topic-list{display:block}.venus-assignment{max-width:130mm;margin-bottom:20px}.myth-definition,.creative-note{background:#f3f3ed}.opening-number{display:none}.homework-group{margin-top:25px}.task-number{font:23pt Georgia}.task-points,.homework-group-heading>span,.topic-points{font:11pt Georgia}.additional-heading{display:block;margin:25px 0}.additional-heading>span,.margin-note{font:12pt Georgia}}
+/* Wrapped mobile navigation must not cover anchor headings. */
+@media(max-width:700px){.lesson-page [id]{scroll-margin-top:145px}}
+@media(max-width:360px){.lesson-page [id]{scroll-margin-top:180px}}
+
+/* Only assignment navigation sticks; it is bounded by the homework section. */
+.homework-intro{display:block}
+.homework-navigation{position:sticky;top:0;z-index:8;background:#eee6d4;display:flex;flex-wrap:wrap;gap:10px 25px;padding:16px 0;border-bottom:1px solid var(--lecture-line)}
+.lesson-page{--homework-nav-offset:100px}
+.homework-section [id]{scroll-margin-top:var(--homework-nav-offset)}
+@media(max-width:700px){.homework-navigation{font-size:23px;gap:8px 19px;padding:12px 0}.lesson-page{--homework-nav-offset:145px}}
+@media(max-width:360px){.lesson-page{--homework-nav-offset:180px}}
+@media print{.homework-navigation{display:none!important}}
+
+.assignment-images{display:grid;gap:16px;max-width:850px;margin:22px 0 26px}
+.assignment-images img{display:block;width:100%;height:auto}
+.assignment-images.coins{grid-template-columns:repeat(2,minmax(0,220px));gap:18px;max-width:460px}
+.assignment-images.coins a{align-self:center}
+.assignment-source{font:20px/1.45 var(--hand);overflow-wrap:anywhere}
+.lecture-bottom{flex-wrap:wrap}.lecture-bottom>a{max-width:440px}
+
+.lecture-reading .optional-lecture-note{text-align:center;text-align-last:center;margin:0 0 2em}
+.coin-collection{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin:24px 0 30px;max-width:1100px}
+.coin-specimen,.vase-specimen{margin:0;min-width:0}
+.coin-sides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
+.assignment-art-open{display:block;color:var(--lecture-blue)}
+.assignment-art-open img{display:block;width:100%;height:auto}
+.coin-sides img{aspect-ratio:1;object-fit:contain}
+.assignment-art-open>span,.coin-side-label{display:block;font:21px/1.3 var(--hand);padding-top:8px}
+.coin-sides .assignment-art-open>span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.coin-side-label{text-align:center;color:#706048}
+.coin-specimen figcaption,.vase-specimen figcaption{font:21px/1.45 var(--hand);padding-top:15px;color:#706048}
+.artifact-name{display:block;color:#4a4937;font-size:25px;margin-bottom:5px}
+.coin-specimen figcaption a,.vase-specimen figcaption a{text-decoration:underline;text-underline-offset:4px}
+.vase-specimen{max-width:850px;margin:24px 0 30px}
+.vase-specimen>.assignment-art-open{padding:8px;background:#faf3df;border:1px solid #b29a6a}
+@media(max-width:900px){.coin-collection{grid-template-columns:1fr;max-width:550px;gap:35px}}
+@media(max-width:700px){.coin-sides{gap:14px}.coin-specimen figcaption,.vase-specimen figcaption{font-size:20px}.artifact-name{font-size:24px}}
+.art-dialog>img{max-height:78dvh;object-fit:contain}
+
+/* Full, uncropped artworks between approved lecture paragraphs. */
+.lecture-illustration{width:min(100%,680px);margin:42px auto 48px;break-inside:avoid}
+.lecture-illustration-open{display:block;cursor:zoom-in}
+.lecture-illustration img{display:block;width:100%;height:auto}
+.lecture-illustration figcaption{padding-top:13px;font:22px/1.4 var(--hand);text-align:left;color:#706048}
+.illustration-title{display:block;font-size:27px;color:#4a4937;margin-bottom:3px}
+.illustration-credit{display:block}
+.illustration-credit a{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:700px){.lecture-illustration{margin-block:30px 36px}.lecture-illustration figcaption{font-size:20px}.illustration-title{font-size:25px}}
+@media print{.lecture-illustration{max-width:120mm;margin-block:20px}.lecture-illustration figcaption{font:10pt Georgia}}
+
+/* Art links reveal their interaction through a small, layout-safe lift. */
+[data-art-open]{position:relative;display:block;transform-origin:center;transition:transform .25s ease;cursor:zoom-in}
+@media(hover:hover){[data-art-open]:hover{transform:scale(1.025);z-index:1}}
+[data-art-open]:focus-visible{transform:scale(1.025);z-index:1;outline:2px solid #244d98;outline-offset:4px}
+@media(prefers-reduced-motion:reduce){[data-art-open]{transition:none}}

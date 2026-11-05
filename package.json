@@ -1,0 +1,11 @@
+{
+  "name": "kassia-mythology-cabinet",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node preview-server.mjs --host 127.0.0.1",
+    "build": "node build.mjs",
+    "test": "node --test",
+    "check": "node tools/check-site.mjs"
+  }
+}

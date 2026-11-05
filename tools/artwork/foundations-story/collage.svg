@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2200" viewBox="0 0 1600 2200">
+<defs>
+ <clipPath id="coin"><path d="M400,45 Q470,20 560,40 Q690,12 782,78 Q850,105 883,210 Q914,284 920,397 L928,610 Q928,705 857,765 Q817,795 720,817 L598,867 Q534,891 483,862 L435,872 L353,837 L234,795 Q155,765 120,696 L91,609 L73,515 L48,433 Q24,370 53,321 L145,230 L207,187 L249,135 Q291,75 400,45Z"/></clipPath>
+ <clipPath id="reader"><path d="M1552,151 L1562,139 L1558,127 L1578,129 L1585,116 L1604,122 L1613,109 L1628,116 L1642,111 L1652,122 L1668,118 L1676,131 L1693,131 L1707,145 L1714,169 L1724,182 L1740,161 L1760,153 L1785,157 L1815,175 L1847,181 L1886,170 L1932,159 Q1970,145 2000,157 Q2024,167 2028,191 L2011,219 L2018,247 L2018,330 L2002,400 L1996,468 L1996,514 L2048,533 L2048,685 L1968,685 Q1949,723 1963,761 Q1944,822 1884,865 Q1833,910 1747,932 L1667,944 L1669,921 Q1530,919 1441,881 Q1389,855 1384,816 Q1388,793 1419,781 L1504,762 L1540,729 L1562,704 L1555,654 L1547,602 L1543,558 Q1541,531 1563,509 L1580,492 L1604,478 L1580,485 L1554,488 L1548,484 L1545,475 L1544,467 L1546,462 L1552,461 Q1580,453 1600,439 L1628,429 L1667,417 L1723,405 L1718,393 L1694,380 L1680,365 L1662,345 L1647,330 L1639,312 L1640,293 L1648,280 L1658,267 L1664,257 L1655,247 L1640,235 L1633,230 L1613,233 L1606,233 L1600,225 L1598,218 L1600,210 L1595,207 L1598,201 L1592,198 L1588,194 L1591,187 L1595,176 L1596,170 L1585,165 L1588,158 L1592,152 Z"/></clipPath>
+ <clipPath id="volute"><path d="M 0,70 Q28,32 70,14 L105,8 L154,25 L224,34 L303,41 L383,47 L485,79 L638,79 L640,480 L475,480 L473,353 Q445,414 374,452 Q308,487 229,477 Q136,456 70,398 Q12,346 9,266 Q-3,186 0,70 Z"/></clipPath>
+ <clipPath id="nearColumn"><path d="M792,146 L804,136 L812,118 L802,111 L802,102 L819,99 L814,40 L824,24 L840,26 L850,33 L867,36 L881,44 L884,111 L925,121 L944,134 L930,142 L914,149 L911,604 L818,604 L819,165 Z"/></clipPath>
+ <clipPath id="vase"><path clip-rule="evenodd" d="M297,145 Q500,133 703,145 L682,209 L655,216 L655,255 Q723,218 768,242 Q843,277 825,383 L809,482 Q834,612 802,733 Q770,880 649,1025 Q682,1042 686,1080 L675,1114 Q508,1141 341,1115 L337,1080 Q333,1040 384,1025 Q280,902 239,769 Q190,653 198,524 L181,410 Q147,299 198,256 Q243,217 310,250 L340,267 L344,215 L315,209 Z M340,321 Q259,268 230,309 Q206,347 255,446 Q305,397 340,321 Z M659,314 Q734,269 770,302 Q798,343 749,438 Q692,394 659,314 Z"/></clipPath>
+ <filter id="coinKey" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -12 0 0 9 0"/></filter>
+ <filter id="whiteKey" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -3.3 0 0 3.3 0"/></filter>
+ <clipPath id="olive"><path d="M240,8 L248,8 L312,160 L326,251 Q362,285 407,303 Q347,314 325,280 L320,341 Q359,376 387,481 Q352,459 341,411 L339,514 Q381,603 387,781 Q333,721 309,629 Q292,555 301,496 L288,463 Q288,630 265,743 Q224,716 228,635 L244,501 Q209,566 157,580 Q189,524 216,482 Q99,537 17,495 Q154,456 251,466 L280,379 Q253,414 193,460 Q221,398 244,366 L290,311 L297,243 Q239,264 185,245 Q139,252 135,224 Q167,213 198,222 Q250,225 298,200 L240,8 Z"/></clipPath>
+ <clipPath id="hill"><path d="M 5,318 L58,299 L122,281 L181,279 L214,287 L216,232 L208,228 L220,224 L240,227 L252,230 L329,237 L329,232 L344,232 L345,241 L357,242 L358,232 L367,231 L366,225 L378,225 L381,221 L385,197 L396,192 L397,188 L420,181 L439,173 L482,162 L489,163 L491,158 L510,159 L514,155 L530,156 L551,157 L564,158 L568,154 L606,154 L607,165 L641,173 L671,182 L706,190 L711,195 L707,205 L700,206 L700,284 L749,289 L820,314 L1000,390 L1000,602 L970,598 L951,603 L910,597 L877,602 L831,596 L790,602 L744,597 L700,602 L651,598 L608,603 L562,597 L520,602 L474,598 L429,602 L383,598 L337,603 L293,598 L247,603 L202,596 L160,602 L113,597 L67,602 L7,600 Z"/></clipPath>
+ <linearGradient id="seaFade" x2="0" y2="1"><stop stop-color="white" stop-opacity="0"/><stop offset=".36" stop-color="white"/><stop offset="1" stop-color="white"/></linearGradient>
+ <mask id="seam"><rect width="1600" height="2200" fill="url(#seaFade)"/></mask>
+ <linearGradient id="warm" x2="0" y2="1"><stop stop-color="#dacda8" stop-opacity=".08"/><stop offset="1" stop-color="#654a2c" stop-opacity=".15"/></linearGradient>
+ <radialGradient id="light"><stop stop-color="#fff0ca" stop-opacity=".3"/><stop offset="1" stop-color="#fff0ca" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-25%" y="-25%" width="160%" height="160%"><feDropShadow dx="-9" dy="16" stdDeviation="13" flood-color="#1e211a" flood-opacity=".33"/></filter>
+</defs>
+<rect width="1600" height="2200" fill="#c9c0a4"/>
+<g transform="translate(-200,-80)"><image href="sources/sky-work.jpg" width="2100" height="1858"/></g>
+<rect y="1460" width="1600" height="740" fill="#b4a78a"/>
+<g transform="translate(-270,380) scale(1.93)" clip-path="url(#hill)"><image href="sources/parthenon-work.jpg" width="1000" height="618"/></g>
+<ellipse cx="900" cy="410" rx="820" ry="600" fill="url(#light)"/>
+<g transform="translate(1470,150) scale(-.55,.55)" filter="url(#shadow)"><g clip-path="url(#coin)" filter="url(#coinKey)"><image href="sources/athena-work.jpg" width="1000" height="904"/></g></g>
+<!-- Antique paper on the terrace is kept beneath the objects rather than floating in the air. -->
+<path d="M0,1525 L1600,1660 L1600,2200 L0,2200Z" fill="#d6c9aa"/>
+<svg x="0" y="1540" width="1600" height="660" viewBox="1400 950 648 76" preserveAspectRatio="none"><image href="sources/homer-work.jpg" width="2048" height="1026"/></svg>
+<!-- A monumental painted column occupies the foreground and frames the distant temple. -->
+<g transform="translate(-2800,-150) scale(3.5)" filter="url(#shadow)"><g clip-path="url(#nearColumn)"><image href="sources/parthenon-work.jpg" width="1000" height="618"/></g></g>
+
+<g transform="translate(220,780) scale(.8) rotate(180 213 400)"><g filter="url(#whiteKey)"><image href="sources/olive-work.jpg" width="426" height="800"/></g></g>
+<!-- Theseus and the Minotaur: a myth survives both in poetry and on the painted vessel. -->
+<g transform="translate(50,1320) scale(.66)" filter="url(#shadow)"><g clip-path="url(#vase)"><image href="sources/amphora-work.jpg" width="1000" height="1333"/></g></g>
+<!-- The seated reader overlaps the writing and the distant world. -->
+<g transform="translate(-1290,850) scale(1.4)" filter="url(#shadow)"><g clip-path="url(#reader)"><image href="sources/homer-work.jpg" width="2048" height="1026"/></g></g>
+<!-- Real botanical photograph, clipped along leaves instead of a white tile. -->
+<g transform="translate(-150,1640) rotate(-40 240 400) scale(.9)" filter="url(#shadow)"><g filter="url(#whiteKey)"><image href="sources/olive-work.jpg" width="426" height="800"/></g></g>
+<g transform="translate(1190,-300) rotate(15 213 400) scale(1.35)"><g filter="url(#whiteKey)"><image href="sources/olive-work.jpg" width="426" height="800"/></g></g>
+<rect width="1600" height="2200" fill="url(#warm)"/>
+</svg>

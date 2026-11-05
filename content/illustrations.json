@@ -1,0 +1,122 @@
+[
+  {
+    "lesson": "01-1",
+    "slug": "homer",
+    "title": "Homer and the Oral Tradition",
+    "artist": "Tyler Miles Lockett",
+    "url": "https://www.lockettopia.com/pages/ggh-homer",
+    "after_starts": "Многие греческие мифы существовали ещё до того, как их записали.",
+    "after_ends": "даже когда некоторые произведения уже существовали в письменном виде.",
+    "before_starts": "С этим миром поэзии связано имя Гомера",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "lesson": "01-1",
+    "slug": "masters-of-drama",
+    "title": "Masters of drama",
+    "artist": "Tyler Miles Lockett",
+    "url": "https://www.lockettopia.com/pages/ggh-masters-of-drama",
+    "after_starts": "В Афинах V века до нашей эры театральные представления были важной частью праздников",
+    "after_ends": "название или несколько случайно процитированных строк.",
+    "before_starts": "Покончив с книгами, Кассия осторожно подняла глиняный сосуд.",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "lesson": "02",
+    "slug": "castration-of-uranus",
+    "title": "CASTRATION OF URANUS",
+    "artist": "Tyler Miles Lockett",
+    "url": "https://www.lockettopia.com/pages/ggh-castration-of-uranus",
+    "after_starts": "— А вот и знакомое лицо!",
+    "after_ends": "в разных версиях у неё совершенно разное место среди поколений богов.",
+    "before_starts": "После свержения Урана власть перешла к Кроносу.",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "lesson": "02",
+    "slug": "children-of-cronus",
+    "title": "CHILDREN OF CRONUS",
+    "artist": "Tyler Miles Lockett",
+    "url": "https://www.lockettopia.com/pages/ggh-children-of-cronus",
+    "after_starts": "После свержения Урана власть перешла к Кроносу.",
+    "after_ends": "возможности свободно жить и вырасти у них, разумеется, не было.",
+    "before_starts": "— И да, дочерей он тоже глотал, хотя предсказание говорило именно о сыне.",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "lesson": "02",
+    "slug": "clash-of-the-titans",
+    "title": "CLASH OF THE TITANS",
+    "artist": "Tyler Miles Lockett",
+    "url": "https://www.lockettopia.com/pages/ggh-clash-of-the-titans",
+    "after_starts": "Молнии Зевса и каменные глыбы сторуких обрушились на противников.",
+    "after_ends": "которую так отчаянно пытался сохранить.",
+    "before_starts": "Гриффиндорка оставила над столом только Олимп и шесть небольших фигур",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "lesson": "03",
+    "slug": "ancient-greek-religion",
+    "title": "ancient greek religion",
+    "artist": "Tyler Miles Lockett",
+    "url": "https://www.lockettopia.com/pages/ggh-ancient-greek-religion",
+    "after_starts": "После Эфеса Кассия убрала фигурки и выложила на стол несколько других предметов: монету, изобра",
+    "after_ends": "абывать, что он писал о том, что видел или слышал в своё время, а не составлял полный список всех культов за тысячу лет.",
+    "before_starts": "— Чтобы это не выглядело так, будто свои особенные боги были только у Афин и Эфеса, заглянем ещ",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "lesson": "04",
+    "slug": "the-fate-of-humankind",
+    "title": "The Fate of Humankind",
+    "artist": "Tyler Miles Lockett",
+    "url": "https://www.lockettopia.com/pages/ggh-the-fate-of-humankind",
+    "after_starts": "— Само слово «мойра» у греков означало долю, то, что человеку досталось. Позднее судьбу стали и",
+    "after_ends": "ых авторов на этот счёт встречаются разные представления, поэтому и мы пока не будем пытаться решить за них этот вопрос.",
+    "before_starts": "Кассия написала на доске имя «Акрисий» и рядом, чуть ниже, «Даная».",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "lesson": "04",
+    "slug": "the-oracle-of-delphi",
+    "title": "THE ORACLE OF DELPHI",
+    "artist": "Tyler Miles Lockett",
+    "url": "https://www.lockettopia.com/pages/ggh-the-oracle-of-delphi",
+    "after_starts": "Кассия присела на край преподавательского стола, не спеша открывать лежавшую рядом книгу. — Про",
+    "after_ends": "ьфах и Пифии, через которую вопрошавшие получали ответы Аполлона. Но судьба — вещь более широкая, чем одно предсказание.",
+    "before_starts": "— Само слово «мойра» у греков означало долю, то, что человеку досталось. Позднее судьбу стали и",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "lesson": "05",
+    "slug": "into-the-labyrinth",
+    "title": "INTO THE LABYRINTH",
+    "artist": "Tyler Miles Lockett",
+    "url": "https://www.lockettopia.com/pages/ggh-into-the-labyrinth",
+    "after_starts": "Студенты вновь взялись за красную нить, споря уже гораздо меньше. Фигурка Тесея прошла по корид",
+    "after_ends": "тью. Просто одна и та же история выглядит по-разному, если на время перестать смотреть на неё только глазами победителя.",
+    "before_starts": "— С другой стороны, не всякий, у кого человеческое тело соединено с животным, считался чем-то з",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "lesson": "05",
+    "slug": "the-sirens-and-the-nereids",
+    "title": "THE SIRENS AND THE NEREIDS",
+    "artist": "Tyler Miles Lockett",
+    "url": "https://www.lockettopia.com/pages/ggh-the-sirens-and-the-nereids",
+    "after_starts": "— В «Одиссее» волшебница Кирка заранее предупреждает Одиссея об острове сирен. Их песни заманив",
+    "after_ends": ". И всё же забывать про погибших моряков нельзя: песня сирен остаётся смертельно опасной, как бы красиво она ни звучала.",
+    "before_starts": "Кассия подошла к лабиринту. Красная нить всё ещё лежала у входа, а в середине теперь никого не ",
+    "width": 1080,
+    "height": 1080
+  }
+]

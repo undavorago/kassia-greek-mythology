@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 960">
+ <rect width="760" height="960" fill="#d6c8ae"/>
+ <path d="M0 118C184 30 329 82 455 5c101-61 229 11 305 55v900H0z" fill="#275CA7" opacity=".13"/>
+ <path d="M238 241c13-111 242-134 281 1l18 153c6 56-17 137-67 167v101c80 38 152 104 184 297H123c33-195 99-260 182-297V562c-55-34-83-109-65-178z" fill="#171717"/>
+ <ellipse cx="380" cy="369" rx="118" ry="154" fill="#e5b18d"/>
+ <path d="M267 359c-21-127 46-204 142-196 113 8 127 110 86 196-8-75-30-129-100-139-64-10-105 31-128 139z" fill="#3f2b2b"/>
+ <path d="M317 386c21-13 44-13 63 0M405 386c21-13 44-13 63 0M348 465c20 14 47 14 67 0" fill="none" stroke="#171717" stroke-width="9" stroke-linecap="round"/>
+ <path d="M355 414h1M433 414h1" stroke="#171717" stroke-width="13" stroke-linecap="round"/>
+ <path d="M257 806c96-57 221-57 315 0" fill="none" stroke="#e58c67" stroke-width="10"/>
+ <text x="380" y="900" text-anchor="middle" fill="#F4EEDF" font-family="Georgia,serif" font-size="30">временный портрет</text>
+</svg>

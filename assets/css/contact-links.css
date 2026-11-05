@@ -1,0 +1,12 @@
+/* Reusable contact line for the home page, rules, and future lecture pages. */
+.contact-links{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;margin:36px 0 0;padding:22px 0 0;border-top:1px solid #b6a27680;font:26px/1.3 var(--hand);text-align:left}
+.contact-links .contact-link{display:inline-flex;align-items:baseline;gap:8px;min-height:44px;padding:6px 0;border:0;border-bottom:1px solid #244d9855;background:none;color:#244d98;font:inherit;text-decoration:none;white-space:normal}
+.contact-links a:hover{color:#983b2a;border-bottom-color:currentColor}
+.contact-links a:focus-visible{outline:2px solid #244d98;outline-offset:5px}
+.contact-handle{font-size:.84em}
+.contact-links .contact-pending{color:#7c735f;border-bottom-style:dashed;border-bottom-color:#9c8d6c88;cursor:default;opacity:.75}
+.contact-soon{font:19px/1.2 var(--hand);color:#81765f}
+.rules-manuscript .contact-links{max-width:960px;margin:34px auto 30px}
+@media(max-width:600px){.contact-links{font-size:25px;gap:7px 22px;padding-top:18px}.contact-links .contact-pending{flex-wrap:wrap;gap:3px 8px}}
+@media print{.contact-links{display:none!important}}
+

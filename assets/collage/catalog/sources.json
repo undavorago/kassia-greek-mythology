@@ -1,0 +1,101 @@
+[
+  {
+    "objectID": 252511,
+    "title": "Marble head of a god, probably Zeus",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/92345.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/92345.jpg",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/252511",
+    "creditLine": "Fletcher Fund, 1926",
+    "objectDate": "3rd or 2nd century BCE",
+    "file": "marble-head.jpg",
+    "derivedFiles": [
+      "zeus-cutout.png"
+    ]
+  },
+  {
+    "objectID": 254578,
+    "title": "Terracotta amphora (jar)",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DP116930.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DP116930.jpg",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/254578",
+    "creditLine": "Purchase, Joseph Pulitzer Bequest, 1947",
+    "objectDate": "ca. 540–530 BCE",
+    "file": "theseus-amphora.jpg"
+  },
+  {
+    "objectID": 248134,
+    "title": "Papyrus fragment with lines from Homer's Odyssey",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DP137336.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DP137336.jpg",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/248134",
+    "creditLine": "Gift of Egypt Exploration Fund, 1909",
+    "objectDate": "ca. 285–250 BCE",
+    "file": "odyssey-papyrus.jpg",
+    "derivedFiles": [
+      "odyssey-papyrus-detail.webp"
+    ]
+  },
+  {
+    "objectID": 330160,
+    "title": "Silver tetradrachm",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/KN366.JPG",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/330160",
+    "creditLine": "Bequest of Nanette B. Kelekian, 2020",
+    "objectDate": "ca. 440–404 BC",
+    "file": "owl-coin.webp"
+  },
+  {
+    "objectID": 364068,
+    "title": "Apollo chasing Daphne who throws her arms up, in the background at right shows the moment she turns in a laurel, from \"Story of Apollo and Daphne\"",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP824401.jpg",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/364068",
+    "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1949",
+    "objectDate": "1530–60",
+    "file": "apollo-daphne.webp"
+  },
+  {
+    "objectID": 361885,
+    "title": "Apollo holding pipes in his right hand accompanied by Pegasus",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP855257.jpg",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/361885",
+    "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1949",
+    "objectDate": "1556–60",
+    "file": "apollo-pegasus.webp"
+  },
+  {
+    "objectID": 373996,
+    "title": "The Three Fates: Clotho, Lachesis and Atropos",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP837612.jpg",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/373996",
+    "creditLine": "Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1956",
+    "objectDate": "ca. 1589",
+    "file": "three-fates.webp"
+  },
+  {
+    "objectID": 435908,
+    "title": "The Trojan Women Setting Fire to Their Fleet",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP226145.jpg",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/435908",
+    "creditLine": "Fletcher Fund, 1955",
+    "objectDate": "ca. 1643",
+    "file": "trojan-landscape.webp"
+  },
+  {
+    "objectID": 435747,
+    "title": "Jupiter, in the Guise of Diana, and Callisto",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP339911.jpg",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/435747",
+    "creditLine": "The Jack and Belle Linsky Collection, 1982",
+    "objectDate": "1763",
+    "file": "jupiter-callisto.webp"
+  }
+]
